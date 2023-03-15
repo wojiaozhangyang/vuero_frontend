@@ -45,14 +45,14 @@ const localFlagSrc = computed(() => {
       </label>
     </div>
 
-    <a
+    <!-- <a
       tabindex="0"
       class="toolbar-link right-panel-trigger"
       @keydown.space.prevent="panels.setActive('languages')"
       @click="panels.setActive('languages')"
     >
       <img :src="localFlagSrc" alt="" />
-    </a>
+    </a> -->
 
     <slot></slot>
   </div>

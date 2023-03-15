@@ -19,7 +19,7 @@ const darkmode = useDarkmode()
 const { t } = useI18n()
 
 useHead({
-  title: `$MyFinancesNow- Vuero`,
+  title: `北京某某科技公司`,
   meta: [
     {
       name: 'robots',

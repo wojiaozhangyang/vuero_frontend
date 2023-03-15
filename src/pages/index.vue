@@ -15,25 +15,19 @@ import { useHead } from '@vueuse/head'
 import { useViewWrapper } from '/@src/stores/viewWrapper'
 
 const viewWrapper = useViewWrapper()
-viewWrapper.setPageTitle('MyFinancesNow Home')
+viewWrapper.setPageTitle('北京某某科技公司')
 
 useHead({
-  title: 'MyFinancesNow Home',
+  title: '北京某某科技公司',
 })
 </script>
 
 <template>
-  <SidebarLayout theme="float" open-on-mounted>
+  <IndexLayout theme="float" open-on-mounted>
     <!-- Content Wrapper -->
     <div class="page-content-inner">
-      <BankingDashboardV1>
-        <!--
-          Page content goes here
 
-          You can see pages content samples from 
-          files in /src/components/pages directory
-        -->
-      </BankingDashboardV1>
+      <BankingDashboardV1></BankingDashboardV1>
     </div>
-  </SidebarLayout>
+  </IndexLayout>
 </template>

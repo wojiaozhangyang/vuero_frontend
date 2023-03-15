@@ -200,6 +200,7 @@ declare module '@vue/runtime-core' {
     IconWrapTooltipsDocumentation: typeof import('./documentation/icon-wrap/icon-wrap-tooltips-documentation.md')['default']
     IllustrationWidget: typeof import('./src/components/partials/widgets/ui-creative/IllustrationWidget.vue')['default']
     InboxMessagesList: typeof import('./src/components/partials/inbox/messages/InboxMessagesList.vue')['default']
+    IndexLayout: typeof import('./src/layouts/IndexLayout.vue')['default']
     InfluencerDropdown: typeof import('./src/components/partials/dropdowns/InfluencerDropdown.vue')['default']
     InputBasicDocumentation: typeof import('./documentation/elements/forms/inputs/input-basic-documentation.md')['default']
     InputDisabledDocumentation: typeof import('./documentation/elements/forms/inputs/input-disabled-documentation.md')['default']

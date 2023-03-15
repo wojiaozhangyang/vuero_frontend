@@ -21,7 +21,7 @@ initDarkmode()
       </RouterView>
     </Suspense>
     <ClientOnly>
-      <VReloadPrompt app-name="Vuero" />
+      <VReloadPrompt app-name="官网" />
     </ClientOnly>
   </div>
 </template>
